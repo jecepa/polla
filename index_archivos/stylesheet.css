@@ -31,7 +31,8 @@ a:visited
 	font-style:normal;
 	text-decoration:underline;
 	text-underline-style:single;
-	font-family:Arial, sans-serif;
+	font-family:Arial;
+	mso-generic-font-family:auto;
 	mso-font-charset:0;}
 .style0
 	{mso-number-format:General;
