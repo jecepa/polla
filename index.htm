@@ -5,11 +5,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
 <meta name="Excel Workbook Frameset">
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-15">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="index_archivos/filelist.xml">
-<title>Eurocopa 2021</title>
 <![if !supportTabStrip]>
 <link id="shLink" href="index_archivos/sheet001.htm">
 <link id="shLink" href="index_archivos/sheet002.htm">
@@ -20,23 +19,25 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_archivos/sheet007.htm">
 <link id="shLink" href="index_archivos/sheet008.htm">
 <link id="shLink" href="index_archivos/sheet009.htm">
+<link id="shLink" href="index_archivos/sheet010.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=9;
+ var c_lTabs=10;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Posiciones";
- c_rgszSh[1] = "A";
- c_rgszSh[2] = "B";
- c_rgszSh[3] = "C";
- c_rgszSh[4] = "D";
- c_rgszSh[5] = "E";
- c_rgszSh[6] = "F";
- c_rgszSh[7] = "H1";
- c_rgszSh[8] = "Participantes";
+ c_rgszSh[0] = "Terceros†1";
+ c_rgszSh[1] = "Posiciones";
+ c_rgszSh[2] = "A";
+ c_rgszSh[3] = "B";
+ c_rgszSh[4] = "C";
+ c_rgszSh[5] = "D";
+ c_rgszSh[6] = "E";
+ c_rgszSh[7] = "F";
+ c_rgszSh[8] = "H1";
+ c_rgszSh[9] = "Participantes";
 
 
 
@@ -66,7 +67,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -314,47 +315,52 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Posiciones</x:Name>
+    <x:Name>Terceros 1</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>A</x:Name>
+    <x:Name>Posiciones</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>B</x:Name>
+    <x:Name>A</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet003.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>C</x:Name>
+    <x:Name>B</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet004.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>D</x:Name>
+    <x:Name>C</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet005.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>E</x:Name>
+    <x:Name>D</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet006.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>F</x:Name>
+    <x:Name>E</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet007.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>H1</x:Name>
+    <x:Name>F</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet008.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Participantes</x:Name>
+    <x:Name>H1</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet009.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Participantes</x:Name>
+    <x:WorksheetSource HRef="index_archivos/sheet010.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_archivos/stylesheet.css"/>
-  <x:WindowHeight>11970</x:WindowHeight>
+  <x:WindowHeight>7530</x:WindowHeight>
   <x:WindowWidth>19260</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -362,11 +368,11 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index_archivos/sheet001.htm" name="frSheet">
+ <frame src="index_archivos/sheet002.htm" name="frSheet">
  <frame src="index_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
-   <p>Esta p√°gina utiliza marcos que su explorador no admite.</p>
+   <p>Esta p·gina utiliza marcos que su explorador no admite.</p>
   </body>
  </noframes>
 </frameset>
