@@ -812,3 +812,27 @@ td
 	border-right:2.0pt double windowtext;
 	border-bottom:2.0pt double windowtext;
 	border-left:.5pt solid windowtext;}
+.xl151
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	mso-number-format:"\@";
+	text-align:center;
+	border-top:2.0pt double windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FCE4D6;
+	mso-pattern:black none;}
+.xl152
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	mso-number-format:"\@";
+	text-align:center;
+	border-top:2.0pt double windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FCE4D6;
+	mso-pattern:black none;}
