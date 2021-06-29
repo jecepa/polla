@@ -951,26 +951,6 @@ td
 	mso-pattern:black none;}
 .xl163
 	{mso-style-parent:style0;
-	font-size:8.0pt;
-	text-align:center;
-	border-top:none;
-	border-right:none;
-	border-bottom:none;
-	border-left:.5pt solid windowtext;
-	background:#DDEBF7;
-	mso-pattern:#DDEBF7 none;}
-.xl164
-	{mso-style-parent:style0;
-	font-size:12.0pt;
-	text-align:center;
-	border-top:none;
-	border-right:none;
-	border-bottom:none;
-	border-left:.5pt solid windowtext;
-	background:#DDEBF7;
-	mso-pattern:#DDEBF7 none;}
-.xl165
-	{mso-style-parent:style0;
 	font-size:14.0pt;
 	font-weight:700;
 	text-align:center;
@@ -980,3 +960,23 @@ td
 	border-left:.5pt solid windowtext;
 	background:#D9D9D9;
 	mso-pattern:black none;}
+.xl164
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#D9D9D9;
+	mso-pattern:#DDEBF7 none;}
+.xl165
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#D9D9D9;
+	mso-pattern:#DDEBF7 none;}
