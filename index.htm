@@ -13,17 +13,19 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_archivos/sheet001.htm">
 <link id="shLink" href="index_archivos/sheet002.htm">
 <link id="shLink" href="index_archivos/sheet003.htm">
+<link id="shLink" href="index_archivos/sheet004.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=3;
+ var c_lTabs=4;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Posiciones";
  c_rgszSh[1] = "Octavos";
  c_rgszSh[2] = "Cuartos";
+ c_rgszSh[3] = "Semifinales";
 
 
 
@@ -311,6 +313,10 @@ function fnSetActiveSheet(iSh)
    <x:ExcelWorksheet>
     <x:Name>Cuartos</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet003.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Semifinales</x:Name>
+    <x:WorksheetSource HRef="index_archivos/sheet004.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_archivos/stylesheet.css"/>
