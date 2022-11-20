@@ -1,2 +1,2 @@
 # polla
-Juego de Eurocopa 2021
+Juego de Qatar 2022
