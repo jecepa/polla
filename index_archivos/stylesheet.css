@@ -220,24 +220,10 @@ td
 	font-weight:700;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:none;
-	border-left:.5pt solid windowtext;
-	white-space:normal;}
-.xl81
-	{mso-style-parent:style17;
-	color:black;
-	font-size:11.0pt;
-	font-weight:700;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	white-space:normal;}
-.xl82
+.xl81
 	{mso-style-parent:style17;
 	color:black;
 	font-size:11.0pt;
@@ -249,7 +235,7 @@ td
 	background:black;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl83
+.xl82
 	{mso-style-parent:style17;
 	color:black;
 	font-size:11.0pt;
@@ -258,7 +244,7 @@ td
 	mso-number-format:"\@";
 	text-align:center;
 	border:.5pt solid windowtext;}
-.xl84
+.xl83
 	{mso-style-parent:style17;
 	color:black;
 	font-size:11.0pt;
@@ -268,14 +254,14 @@ td
 	border:.5pt solid windowtext;
 	background:#92D050;
 	mso-pattern:black none;}
-.xl85
+.xl84
 	{mso-style-parent:style17;
 	color:black;
 	font-size:11.0pt;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;
 	mso-number-format:"0\.000";}
-.xl86
+.xl85
 	{mso-style-parent:style17;
 	color:black;
 	font-size:12.0pt;
@@ -287,7 +273,7 @@ td
 	border-right:.5pt solid windowtext;
 	border-bottom:2.0pt double windowtext;
 	border-left:.5pt solid windowtext;}
-.xl87
+.xl86
 	{mso-style-parent:style17;
 	color:black;
 	font-size:12.0pt;
@@ -301,7 +287,7 @@ td
 	border-left:.5pt solid windowtext;
 	background:#92D050;
 	mso-pattern:black none;}
-.xl88
+.xl87
 	{mso-style-parent:style17;
 	color:black;
 	font-size:12.0pt;
@@ -312,7 +298,7 @@ td
 	border-right:.5pt solid windowtext;
 	border-bottom:2.0pt double windowtext;
 	border-left:.5pt solid windowtext;}
-.xl89
+.xl88
 	{mso-style-parent:style17;
 	color:black;
 	font-size:11.0pt;
@@ -323,7 +309,7 @@ td
 	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:.5pt solid windowtext;}
-.xl90
+.xl89
 	{mso-style-parent:style17;
 	color:black;
 	font-size:11.0pt;
@@ -331,6 +317,20 @@ td
 	mso-font-charset:0;
 	mso-number-format:"General Date";
 	text-align:center;}
+.xl90
+	{mso-style-parent:style17;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
 .xl91
 	{mso-style-parent:style17;
 	color:black;
