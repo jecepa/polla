@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+#tabs button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #eee;
+}
+
+#tabs button.active {
+    background-color: #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
