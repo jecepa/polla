@@ -18,12 +18,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index_archivos/sheet006.html">
 <link id="shLink" href="index_archivos/sheet007.html">
 <link id="shLink" href="index_archivos/sheet008.html">
+<link id="shLink" href="index_archivos/sheet009.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=8;
+ var c_lTabs=9;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Puntajes";
@@ -31,9 +32,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[2] = "Partidos";
  c_rgszSh[3] = "VGrupo";
  c_rgszSh[4] = "Clasificacion";
- c_rgszSh[5] = "Mejores_Terceros";
- c_rgszSh[6] = "Tabla_3ros";
- c_rgszSh[7] = "Grupo";
+ c_rgszSh[5] = "Posiciones";
+ c_rgszSh[6] = "Mejores_Terceros";
+ c_rgszSh[7] = "Tabla_3ros";
+ c_rgszSh[8] = "Grupo";
 
 
 
@@ -331,23 +333,28 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index_archivos/sheet005.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Mejores_Terceros</x:Name>
+    <x:Name>Posiciones</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet006.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Tabla_3ros</x:Name>
+    <x:Name>Mejores_Terceros</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet007.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Grupo</x:Name>
+    <x:Name>Tabla_3ros</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet008.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Grupo</x:Name>
+    <x:WorksheetSource HRef="index_archivos/sheet009.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_archivos/stylesheet.css"/>
-  <x:WindowHeight>11820</x:WindowHeight>
+  <x:WindowHeight>12120</x:WindowHeight>
   <x:WindowWidth>28800</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
+  <x:TabRatio>500</x:TabRatio>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
