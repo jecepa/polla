@@ -65,7 +65,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -350,12 +350,11 @@ function fnSetActiveSheet(iSh)
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_archivos/stylesheet.css"/>
-  <x:WindowHeight>7440</x:WindowHeight>
-  <x:WindowWidth>20490</x:WindowWidth>
+  <x:WindowHeight>0</x:WindowHeight>
+  <x:WindowWidth>0</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>500</x:TabRatio>
-  <x:ActiveSheet>2</x:ActiveSheet>
   <x:Calculation>ManualCalculation</x:Calculation>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
@@ -364,7 +363,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index_archivos/sheet003.html" name="frSheet">
+ <frame src="index_archivos/sheet001.html" name="frSheet">
  <frame src="index_archivos/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
