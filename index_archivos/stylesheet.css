@@ -1106,6 +1106,15 @@ td
 	mso-pattern:black none;}
 .xl175
 	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:#C1F0C8;
+	mso-pattern:black none;}
+.xl176
+	{mso-style-parent:style0;
 	color:white;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;
