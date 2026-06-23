@@ -1125,10 +1125,6 @@ td
 	text-align:center;}
 .xl186
 	{mso-style-parent:style0;
-	color:white;
-	mso-number-format:"Short Date";}
-.xl187
-	{mso-style-parent:style0;
 	color:#C00000;
 	font-size:14.0pt;
 	font-weight:700;
@@ -1141,3 +1137,7 @@ td
 	border-left:none;
 	background:#E2EFDA;
 	mso-pattern:black none;}
+.xl187
+	{mso-style-parent:style0;
+	color:black;
+	mso-number-format:"Short Date";}
