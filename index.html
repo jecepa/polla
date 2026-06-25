@@ -30,7 +30,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Puntajes";
- c_rgszSh[1] = "Panterior";
+ c_rgszSh[1] = "Puntaje Anterior";
  c_rgszSh[2] = "ClaGrupo";
  c_rgszSh[3] = "Clasif_Pron";
  c_rgszSh[4] = "Participantes";
@@ -69,7 +69,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -321,7 +321,7 @@ function fnSetActiveSheet(iSh)
     <x:WorksheetSource HRef="index_archivos/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Panterior</x:Name>
+    <x:Name>Puntaje Anterior</x:Name>
     <x:WorksheetSource HRef="index_archivos/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -362,11 +362,13 @@ function fnSetActiveSheet(iSh)
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_archivos/stylesheet.css"/>
+  <x:WindowIconic/>
   <x:WindowHeight>8340</x:WindowHeight>
   <x:WindowWidth>20490</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
   <x:TabRatio>500</x:TabRatio>
+  <x:ActiveSheet>2</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -374,7 +376,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index_archivos/sheet001.html" name="frSheet">
+ <frame src="index_archivos/sheet003.html" name="frSheet">
  <frame src="index_archivos/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
